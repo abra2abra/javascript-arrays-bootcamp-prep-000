@@ -35,6 +35,5 @@ chocolateBars =  [...chocolateBars, 'choco'];
   }
   
   function removeElementFromBeginningOfArray(array){
-    var newArray = array.slice(1);
-    return newArray;
+    return array.slice(1);
   }
